@@ -537,62 +537,257 @@
 
 
 }
-.footer-section{
+
+.footer-section {
     width: 100%;
     display: flex;
     margin-left: 50px;
     margin-top: 120px;
     margin-bottom: 50px;
 }
-.footer-left{
+
+.footer-left {
     width: 25%;
 }
-.foooter-logo{
+
+.foooter-logo {
     height: 50px;
 }
-.footer-description{
-    color:#979aa3;
+
+.footer-description {
+    color: #979aa3;
     font-size: 18px;
     font-weight: 300;
     margin-top: 30px;
 }
-.footer-mid{
+
+.footer-mid {
     width: 50%;
     margin-left: 80px;
     display: flex;
     flex-direction: row;
     gap: 80px;
 }
-.footer-navbar-one{
+
+.footer-navbar-one {
     font-size: 18px;
 }
-.footer-navbar>h5{
+
+.footer-navbar>h5 {
     font-size: 25px;
     color: #1D2B4F;
     font-weight: 600;
 }
-.footer-navbar>ul{
+
+.footer-navbar>ul {
     list-style: none;
     margin-top: 40px;
     color: #979aa3;
 }
-.footer-navbar>ul>li{
+
+.footer-navbar>ul>li {
     margin-top: 25px
 }
-.footer-right{
+
+.footer-right {
     width: 25%;
     font-size: 25px;
     color: #1D2B4F;
     font-weight: 600;
-    
+
 }
-.footer-right>ul{
+
+.footer-right>ul {
     margin-top: 40px;
     display: flex;
     list-style: none;
     gap: 20px;
-    
+
 }
-.footer-right>ul>li>img{
+
+.footer-right>ul>li>img {
     height: 25px;
+}
+
+
+/* making website responsive */
+
+@media screen and (max-width: 780px) {
+    .container {
+        width: 780px;
+        height: auto;
+        background-color: #FCFDFE;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .navbar-section {
+
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 500px;
+
+    }
+
+    .logo {
+        margin-left: 50px;
+    }
+
+    .navbar-items {
+        display: flex;
+        flex-direction: column;
+        margin-left: 50px;
+    }
+
+    .section-one,
+    .section-three {
+        display: flex;
+        flex-direction: column-reverse;
+
+    }
+
+    .server,
+    .testing,
+    .support {
+        height: 250px;
+    }
+
+    .section-two {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section-four-head {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section-four-head p {
+        margin-left: 30px;
+    }
+
+    .section-four-content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .pricing-heading {
+        font-size: 25px;
+        text-align: left;
+        margin-left: 100px;
+    }
+
+    .cards {
+        display: flex;
+        flex-direction: column;
+        margin-left: 100px;
+        width: 130%;
+
+
+    }
+
+    .price-card {
+        margin-bottom: 20px;
+    }
+
+    .price-card-content {
+        margin-top: 38px;
+    }
+
+    .card-head>h2 {
+        position: relative;
+        bottom: 10%;
+        right: 3%;
+        color: #F8F8F8;
+    }
+
+    .card-head>span {
+        display: flex;
+        top: -10px;
+
+    }
+
+    .customer-head-part {
+        width: 90%;
+        ;
+    }
+
+    .customer-review {
+        margin-left: 120px;
+    }
+
+    .customer-card {
+        margin-top: 15px;
+        height: 280px
+    }
+
+    .customer-name,
+    .customer-company {
+        margin-left: 15px;
+        margin-top: 10px;
+    }
+
+    .section-seven {
+        width: 700px;
+
+        margin-top: 80px;
+        background-image: url(../assets/background-img.svg);
+
+    }
+
+    .register-heading {
+        font-size: 35px;
+    }
+
+    .reg-btn {
+        margin-left: 70px;
+        margin-top: 10px;
+    }
+
+    .footer-section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-description {
+        visibility: collapse;
+        position: absolute;
+    }
+
+    .footer-mid {
+        margin-left: 0px;
+        margin-top: 10px;
+        gap: 30px
+    }
+
+    .footer-right>h5 {
+        margin-top: 30px;
+    }
+
+    .footer-right>ul {
+        margin-top: 20px;
+        gap: 10px
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .section-six {
+        width: 500px;
+    }
+
+    .customer-head-part {
+        width: 80%;
+        margin-left: -30px;
+
+    }
+
+    .customer-heading {
+        font-size: 34px;
+
+    }
+
+    .customer-review {
+        margin-left: 40px;
+    }
 }
