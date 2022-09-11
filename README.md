@@ -1,4 +1,4 @@
-# Assignment-10
+# Assignment-11
 
 
 ![Name](https://img.shields.io/badge/Deepak--Malik-Student-important)
@@ -7,17 +7,17 @@
 ![hitesh-choudhary,FSJS](https://img.shields.io/badge/HITESH--CHOUDHARY%20-Full--Stack--JS--bootcamp-green)
 
 ![html,css](https://img.shields.io/badge/html-CSS-9cf)
-![project](https://img.shields.io/badge/PROJECT-10-blue)
+![project](https://img.shields.io/badge/PROJECT-11-blue)
 ![responsive](https://img.shields.io/badge/Responsive-Design-orange)
 
-# Project [Deployed Link](https://deepakproject10.netlify.app)
+# Project [Deployed Link](https://deepakproject11.netlify.app)
 
 - What I learned from this Project?
   - 
-  - Learned how to make card's in website.
-  - Learned about background-image. 
-  - Learned about Box Shadow.
-  - How to make interior Design website.
+  - Learned how to make hosting landing page.
+  - Learned how to make button and reuse them. 
+  - Learned about making Testimonial Cards.
+  - Created price section as well as banner and beautiful footer.
   - How to use different Google Fonts in webpage.
   - Learned how to make responsive web-design.
   
@@ -28,7 +28,7 @@
 
 ## Time taken to finish this project
 
-- 5.3 hour to complete it.
+- 10 hour to complete it.
 
 
 ---
