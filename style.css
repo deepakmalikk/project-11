@@ -770,6 +770,7 @@
         gap: 10px
     }
 }
+/* responsive for diiferent screen */
 
 @media screen and (max-width: 650px) {
     .section-six {
